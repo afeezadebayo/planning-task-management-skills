@@ -20,7 +20,7 @@ Part of the [Productivity skills](https://github.com/afeezadebayo/productivity-s
 | [`prioritisation`](prioritisation) | Picks what matters now using goals, capacity checks and a not-now list |
 | [`project-breakdown`](project-breakdown) | Turns an outcome into milestones, small tasks, estimates with buffer and a first action |
 | [`quarterly-planning-review`](quarterly-planning-review) | Plans the quarter and reviews the last one |
-| [`weekly-review`](weekly-review) | A 20 to 30 minute review that keeps lists trusted |
+| [`weekly-review`](weekly-review) | A 30 to 45 minute review that keeps lists trusted |
 | [`goal-setting-okrs`](goal-setting-okrs) | Goals and OKRs that connect to daily work |
 | [`focus-deep-work`](focus-deep-work) | Protects focus blocks and reduces interruptions |
 | [`habits-routines`](habits-routines) | Small, sustainable routines that survive a real week |
@@ -30,11 +30,11 @@ More skills in this set are planned. See the [full list online](https://afeezade
 ## Install
 
 ```bash
-git clone https://github.com/afeezadebayo/Planning-and-Task-Management.git
+git clone https://github.com/afeezadebayo/planning-task-management-skills.git
 # Claude Code
-cp -r Planning-and-Task-Management/weekly-review ~/.claude/skills/
+cp -r planning-task-management-skills/weekly-review ~/.claude/skills/
 # Codex and other agents
-cp -r Planning-and-Task-Management/weekly-review ~/.agents/skills/
+cp -r planning-task-management-skills/weekly-review ~/.agents/skills/
 ```
 
 In Claude.ai or Claude Desktop, zip a single skill folder and upload it under **Settings → Capabilities → Skills**.
